@@ -1,0 +1,131 @@
+body{
+   
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.card{
+    width: 220px;
+}
+.card img{
+    width: 220px;
+    height: 122px;
+}
+.heading-card{
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.auther-name{
+    margin: 0;
+    color: #6a6f73;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.rating{
+    font-size: 14px;
+    font-weight:bold;
+    color: rgb(159, 96, 8);
+}
+.star{ 
+    color: rgb(217, 159, 11);
+    font-size: 12px;
+}
+#prize{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.best-tag{
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgb(236,235,152);
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 60px;
+}
+
+/* 
+.goals-card{
+    width: 381px;
+    height: 331px;
+    background-color: aqua;
+
+}
+.goals-card img{
+    width: 17px;
+    height: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+} */
+.topics{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(251, 251, 251);
+}
+.purple-text{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline #5624d0;
+    color:#5624d0;
+}
+.student-count{
+    margin: 0;
+    color: #6a6f73;
+    font-size: 13px;
+    font-weight:500;
+    padding-bottom: 5px;
+}
+.explore-btn{
+    padding: 11px;
+    font-size: 14px;
+    font-weight: 700;
+    border: solid 1px black;
+    margin-top: 20px;
+    background-color: white;
+}
+.topic-heading{
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+
+.partner-company-logos{
+    width: 100%;
+    background-color: white;
+    height: 150px;
+}
+.partner-div-heading{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    color: #1c1d1f;
+    margin-bottom: 0;
+
+}
+.partner-div-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+.c-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+    background-color: ghostwhite;
+}
+.c-logo img{
+    height: 100%;
+}

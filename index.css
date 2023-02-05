@@ -1,0 +1,479 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.navbar{
+    width: 100%;
+    height: 72px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    
+}
+.logo-section{
+    width: 7%;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 25px;
+    
+}
+.nav-section-two{
+    width: 68%;
+    display: flex;
+    align-items: center;
+}
+.nav-text{
+    padding-left: 15px;
+    font-size: 13px;
+}
+.search-section{
+    border: solid 1px black;
+    border-radius: 23px;
+    width: 530px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.search-icon{
+    width: 13px;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+input{
+    border: none;
+    width: 450px;
+    height: 30px;
+    padding-left: 10px ;
+    outline: none;
+}
+.nav-section-three{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+ .login-btn{
+    padding: 10px;
+    background-color: rgb(246, 248, 249);
+    font-weight: bold;
+    font-size: 13px;
+    border: solid 1px black;
+ }
+ .signup-btn{
+    padding: 10px;
+    background-color: rgb(2, 6, 8);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .cart{
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+ }
+ .globe{
+    border: solid 1px black;
+    padding: 8px;
+    margin-right: 5px;
+ }
+
+
+ .fist-section{
+    padding-top:70px;
+    width: 100%;
+     position: relative;
+   
+ }
+
+ .banner-text{
+    position: absolute;
+    top: 137px;
+    left: 70px;
+    padding: 24px;
+    padding-right: 35px;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+ }
+ .first-line-text{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    
+ }
+ .second-line-text{
+    font-size: 19px;
+    margin: 0;
+    margin-top: 10px;
+  
+ }
+ .fist-section img{
+    width: 100%;
+ }
+
+.less-than{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 14px;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.fa-solid{
+    color: white;
+    font-size: 22px;
+}
+.greater-than{
+    position: absolute;
+    margin-top: 180px;
+    margin-left:1220px;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px; 
+}
+.c-main{
+    width: 100%;
+    height: 1150px;
+}
+.course-title{
+    font-size: 32px;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+
+}
+.c-sub-text{
+    font-size: 19px;
+    margin-top: 14px;
+    margin-bottom: 19px;
+    padding-left: 25px;
+
+
+}
+.course-names{
+    width: 100%;
+    height: 30px;
+    color:  #6a6f73;
+    font-weight: bold;
+    font-size: 16px;
+    
+   
+}
+.course-names li{
+    display: inline;
+    margin-right: 20px;
+}
+.course-names li:hover{
+    color: black;
+}
+#python-text{
+    color: black;
+}
+.course-names ul{
+    padding-left: 25px;
+
+}
+.banner-container{
+    border: solid 1px gray;
+    width: 1158px;
+    margin: 0px 20px 20px 20px ;
+    padding: 32px;
+    height: 510px;
+}
+.sub-headings{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 8px 0px;
+}
+.paragraph-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 16px 0px ;
+}
+.explore-btn-one{
+    padding: 11px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 33px;
+    border: solid 1px black;
+    background-color: white;
+}
+.course-cards{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1150px;
+    height: 320px;
+}
+.greater-than-two{
+    position: absolute;
+    margin-top: 41px;
+    margin-left: 1126px;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px; 
+}
+.card{
+    width: 225px;
+   
+}
+.card img{
+    width: 100%;
+    height: 122px;
+    border: solid 1px rgb(176, 175, 175);
+}
+.heading-card{
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.auther-name{
+    margin: 0;
+    color: #6a6f73;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.rating{
+    font-size: 14px;
+    font-weight:bold;
+    color: rgb(159, 96, 8);
+}
+.star{ 
+    color: rgb(217, 159, 11);
+    font-size: 12px;
+}
+#prize{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.best-tag{
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgb(236,235,152);
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 60px;
+}
+.end-card{
+    margin-right: 0;
+}
+.banner-container-two{
+    width: 1158px;
+    margin: 0px 20px 20px 20px ;
+    padding: 32px;
+    height: 360px;
+}
+
+.topics{
+    width: 285px;
+    height: 350px;
+    background-color: rgb(251, 251, 251);
+}
+.purple-text{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline #5624d0;
+    color:#5624d0;
+}
+.student-count{
+    margin: 0;
+    color: #6a6f73;
+    font-size: 13px;
+    font-weight:500;
+    padding-bottom: 5px;
+}
+.explore-btn{
+    padding: 11px;
+    font-size: 14px;
+    font-weight: 700;
+    border: solid 1px black;
+    margin-top: 20px;
+    background-color: white;
+}
+.topic-heading{
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.partner-company-logos{
+    width: 100%;
+    background-color: white;
+    height: 350px;
+    padding-top: 80px;
+}
+.partner-div-heading{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    color: #1c1d1f;
+    margin-bottom: 0;
+
+}
+.partner-div-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+.c-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+}
+.c-logo img{
+    height: 100%;
+}
+
+
+
+.udemy-biss{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.text-side{
+    width: 400px;
+    height: 400px;
+}
+.text-side img{
+    width: 190px;
+}
+.picture-side{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+}
+.picture-side img{
+    width: 100%;
+}
+.upskill-text{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.text-side li,.para{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+.udemy-instructor{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+.picture-side-two{
+    height: 400px;
+    width: 400px;
+    margin-right: 80px;
+}
+.picture-side-two img{
+    width: 100%;
+}
+.white-btn{
+    padding: 11px;
+    background-color: rgb(246, 248, 249);
+    font-weight: bold;
+    font-size: 17px;
+    border: solid 1px black;
+ }
+ .black-btn{
+    padding: 11px;
+    background-color: rgb(2, 6, 8);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+footer{
+    width: 96%;
+    height: 270px;
+    padding: 25px;
+    background-color: black;
+ }
+ .footer-one{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.f1-div,.f2-div,.f3-div,.f4-div{
+    width: 270px;
+    height: 200px;
+}
+.eng-btn{
+    margin-left: 150px;
+    padding: 12px 45px 12px 12px;
+    background-color: black;
+    color: white;
+    margin-left: 140px;
+    border: solid 1px white;
+}
+.bi-globe{
+    margin-right: 5px;
+}
+.f5-div{
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lo-go img{
+    width: 91px;
+    height: 34;
+}
+.na-me p{
+    color: white;
+    font-size: 12px;
+}
+.footer-one li{
+    font-size: 14px;
+    font-weight: 600;
+    list-style-type: none;
+    color: white;
+    line-height: 25px;
+
+}
